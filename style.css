@@ -1,41 +1,114 @@
-ul {
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body > img{
+  height: 70px;
+  width: 186px;
+  margin: 8px auto 0px 200px;
+}
+.menu1  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  li {
+  .menu1  li {
     float: left;
   }
   
-  li a {
+  .menu1 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 16px;
+    padding: 3px 16px ;
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color:green;
+  .menu1 li a:hover {
+    text-decoration-line: underline;
   }
 
   .menu1{
-    width: 580px;
-    margin: 10px 0 0 auto;
-    background-color: #333;
-    padding: 10px 0 0 0;
+    width: 450px;
+    margin: -17px 200px 1px auto;
+    background-color: #585858;
+    padding: 0 0 0 0;
+    height: 30px;
     
   }
+
   
+
+
   .menu2{
     background-color: #000;
-    padding: 0 300px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+  }
+  .menu2 > ul {
+    display: flex;
   }
 
-  nav > ul{
-display: table-cell;
+  .menu2 ul, ol{
+    list-style: none;
+  }
 
+  .menu2 > ul > li > a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
 
+  .menu2 > ul > li > a + ul{
+    background-color: #000;
+  }
+
+  .menu2 > ul > li > a + ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .menu2 > ul > li > a + ul {
+    display: none;
+    position: absolute;
+  }
+
+  .menu2 > ul > li:hover > a + ul {
+    display: block;
+  }
+
+  .menu2 li ul li {
+    position: relative;
+  }
+  
+  .menu2 li a:hover {
+    background-color: #30873f;
+  }
+
+  .menu2 > ul > li > ul > li{
+    margin: 5px 5px 5px 5px;
+    padding: 0 0 0 0;
+  }
+
+  .menu2 > ul > li > ul > li :hover{
+    background-color: #30873f;
+  }
+
+  .menu2 > ul > li > img{
+      height: 30px;
+      width: 30px;
+      margin-top: 8px;
+      margin-right: 20px;
+    }
+
+  hr{
+    border-color: #30873f;
+    margin-top: 0px;
+    border-width: 4px;
   }

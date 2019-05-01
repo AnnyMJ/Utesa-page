@@ -8,6 +8,37 @@ body > img{
   width: 186px;
   margin: 8px auto 0px 200px;
 }
+
+.socialmedia  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.socialmedia  li {
+  float: left;
+}
+
+.socialmedia li img {
+  display: block;
+  padding: 3px 10px ;
+  opacity: 0.3;
+}
+
+.socialmedia li img:hover {
+  color: #30873f;
+}
+
+.socialmedia{
+  width: 450px;
+  margin: -70px 5px 1px auto;  
+  padding: 0 0 0 0;
+  height: 30px;
+  
+}
+
+
 .menu1  ul {
     list-style-type: none;
     margin: 0;
@@ -33,7 +64,7 @@ body > img{
 
   .menu1{
     width: 450px;
-    margin: -17px 200px 1px auto;
+    margin: 10px 200px 1px auto;
     background-color: #585858;
     padding: 0 0 0 0;
     height: 30px;
@@ -81,6 +112,7 @@ body > img{
 
   .menu2 > ul > li:hover > a + ul {
     display: block;
+    z-index: 2;
   }
 
   .menu2 li ul li {
@@ -108,7 +140,20 @@ body > img{
     }
 
   hr{
-    border-color: #30873f;
+    border-color: hsl(130, 48%, 36%);
     margin-top: 0px;
     border-width: 4px;
+    margin-bottom: 0px;
   }
+
+  .carouselExampleIndicators, .carousel-inner > .carousel-item active > img, .carousel-inner > .carousel-item > img {
+  height: 512px;
+}
+
+.news{
+  margin: 10px 300px 0 300px;
+}
+.news > img{
+  width: 50px;
+  height: 50px;
+}

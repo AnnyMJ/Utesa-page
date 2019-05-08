@@ -247,4 +247,24 @@ body {
     width: 100%;
     padding: 0;
   }
+  
+}
+
+@media screen and (min-width: 1020px){
+  .menu_bar, .menuadaptable{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .logo, .menu1, .menu2 {
+    display: none;
+  }
+
+
+  .menuadaptable{
+    display: block;
+    background: #30873f;
+    margin-bottom: -20px;
+  }
 }
